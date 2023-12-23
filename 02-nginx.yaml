@@ -2,11 +2,12 @@
   hosts: web
   become: yes #it will give root access
   tasks:
-    - name: install ngnix packages
-      ansible.builtin.package:
-        name: nginx
-        state: present
-    - name: start nginx
-        name: nginx
-        state: started
-        enabled: yes     
+  - name: install ngnix packages
+    ansible.builtin.package:
+      name: nginx
+      state: present
+  - name: start nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started
+      enabled: yes     
