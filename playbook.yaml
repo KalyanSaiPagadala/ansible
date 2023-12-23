@@ -1,5 +1,5 @@
 - name: kalyan
   hosts: web
-  task: 
+  tasks: 
     - name: ping the server 
       ansible.builtin.ping: 
