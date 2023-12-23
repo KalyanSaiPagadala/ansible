@@ -1,5 +1,5 @@
 - name:kalyan
-  host:local
+  host: web
   task:ping server
     - name:ping the server 
       ansible.builtin.ping: 
