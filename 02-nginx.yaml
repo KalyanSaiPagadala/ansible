@@ -1,5 +1,5 @@
-- name: install nginx
-  host: web
+- name: install and run nginx
+  hosts: web
   become: yes #it will give root access
   tasks:
     - name: install ngnix packages
