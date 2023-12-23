@@ -7,5 +7,5 @@
         name: nginx
         state: present
     - name: start nginx
-      state: started
-      enabled: yes     
+        state: started
+        enabled: yes     
