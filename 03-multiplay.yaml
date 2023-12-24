@@ -1,0 +1,16 @@
+
+- name: play with multi plays
+  hosts: localhost
+  tasks:
+  - name: play1
+    ansible.bultin.debug:
+      msg: hello play1
+      
+
+- name: play with multi plays
+  hosts: localhost
+  tasks:
+  - name: play2
+    ansible.bultin.debug:
+      msg: hello play2
+      
