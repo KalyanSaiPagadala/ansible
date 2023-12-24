@@ -5,8 +5,8 @@
 Course= "devops with aws"
 month= "december"
 comple= "march"
-PERSON= "kalyan from PLAY"
-WISHES= "Morning from PLAY"
+PERSON= "kalyan from INVENTORY"
+WISHES= "Morning from INVENTORY"
 
 [localhost]
 localhost 
