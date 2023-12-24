@@ -5,3 +5,6 @@
 Course= "devops with aws"
 month= "december"
 comple= "march"
+
+[localhost]
+localhost
