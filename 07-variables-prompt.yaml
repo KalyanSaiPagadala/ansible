@@ -1,12 +1,13 @@
+# prompt level variables
 - name: variables from play level
   hosts: localhost
   vars_prompt:
   - name: username
-    prompt: username is
-    private: false 
+    prompt:  enter the username
+    private: false  # user can see what they are entering
   - name: password
-    prompt: password is
-    private: true
+    prompt:  enter the password
+    private: true # user can't see what they are entering
     
   tasks: 
   - name: print and check variables
