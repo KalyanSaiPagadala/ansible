@@ -1,0 +1,10 @@
+# argument level variables
+- name: variables from play level
+  hosts: localhost
+  tasks: 
+  - name: check variables
+    ansible.builtin.debug:
+      msg: hello {{person}} , happy {{whishes}}
+
+      # in arg level variables the arg are given in command line while executing the ansible command 
+        # for the above ex: -e "person= kalyan" -e "whishes= new year"
