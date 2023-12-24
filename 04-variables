@@ -1,5 +1,5 @@
 # PLAY level variable
-- name: variables from play level
+-name: variables from play level
   hosts: localhost
   vars:
     Course: "devops with aws"
