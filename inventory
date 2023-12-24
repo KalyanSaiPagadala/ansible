@@ -1,7 +1,7 @@
 [web]
 34.227.178.188
 
-[localhosts:vars]
+[localhost:vars]
 Course= "devops with aws"
 month= "december"
 comple= "march"
