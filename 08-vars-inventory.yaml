@@ -1,3 +1,4 @@
+#inventory level variables
 - name: variables from play level
   hosts: localhost
   tasks: 

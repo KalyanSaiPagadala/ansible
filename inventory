@@ -1,10 +1,10 @@
 [web]
 34.227.178.188
 
-[localhost:vars]
+[localhost:vars]  # the localhost group should be added to execute variables
 Course= "devops with aws"
 month= "december"
 comple= "march"
 
 [localhost]
-localhost
+localhost 
