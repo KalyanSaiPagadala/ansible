@@ -1,7 +1,7 @@
 # PLAY level variable
--name: variables from play level
- hosts: localhost
- vars:
+- name: variables from play level
+  hosts: localhost
+  vars:
     Course: "devops with aws"
     month: "december"
     comple: "march"
