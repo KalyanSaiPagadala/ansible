@@ -3,7 +3,7 @@
   hosts: localhost
   tasks:
   - name: play1
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: hello play1
       
 
@@ -11,6 +11,6 @@
   hosts: localhost
   tasks:
   - name: play2
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: hello play2
       
